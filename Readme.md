@@ -21,3 +21,6 @@ git rebase outrabranch
 
  ### deletando brach remota
  git push origin :fix/authentication
+
+ ### deletando brach localmente
+ git branch -d feat
