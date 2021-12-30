@@ -16,3 +16,8 @@ git rebase outrabranch
  ### editando mensagem do commit
  git commit -m 'message' --amend
  
+ ### revertando brach remota para o commmit desejado
+ git push -f origin <hashcommit>:branch 
+
+ ### deletando brach remota
+ git push origin :fix/authentication
